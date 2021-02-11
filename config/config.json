@@ -1,0 +1,22 @@
+{
+    "development": {
+        "database": "sequelize_associations_development",
+        "host": "localhost",
+        "username": "postgres",
+        "password": "root",
+        "dialect": "postgres",
+        "define": {
+            "freezeTableName": true
+        }
+    },
+    "test": {
+        "database": "sequelize_associations_test",
+        "host": "localhost",
+        "dialect": "postgres"
+    },
+    "production": {
+        "database": "sequelize_associations_production",
+        "host": "localhost",
+        "dialect": "postgres"
+    }
+}
